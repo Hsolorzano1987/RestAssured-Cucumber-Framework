@@ -1,0 +1,828 @@
+17:31:59.316 INFO  AUTOMATION - beforeAll
+17:31:59.486 INFO  AUTOMATION - before: Login Correcto
+17:32:00.500 INFO  AUTOMATION - (POST) Login Request
+17:32:05.887 INFO  AUTOMATION - Verificando el status code
+17:32:05.895 INFO  AUTOMATION - Verificando el response time
+17:32:05.914 INFO  AUTOMATION - after: Login Correcto, status: FAILED
+17:32:06.095 INFO  AUTOMATION - before: Login con credenciales Erroneas
+17:32:06.110 INFO  AUTOMATION - (POST) Login Request
+17:32:07.877 INFO  AUTOMATION - Verificando el status code
+17:32:07.879 INFO  AUTOMATION - after: Login con credenciales Erroneas, status: PASSED
+17:32:07.897 INFO  AUTOMATION - before: Login con credenciales Erroneas
+17:32:07.900 INFO  AUTOMATION - (POST) Login Request
+17:32:08.215 INFO  AUTOMATION - Verificando el status code
+17:32:08.217 INFO  AUTOMATION - after: Login con credenciales Erroneas, status: PASSED
+17:32:08.259 INFO  AUTOMATION - before: Obtener todos los Posts
+17:32:08.269 INFO  AUTOMATION - (GET) Get All Post
+17:32:08.642 INFO  AUTOMATION - Verificando el status code
+17:32:08.643 INFO  AUTOMATION - after: Obtener todos los Posts, status: PASSED
+17:32:08.675 INFO  AUTOMATION - before: Obtener un Posts por su id
+17:32:08.678 INFO  AUTOMATION - (GET) Get Single Post
+17:32:09.013 INFO  AUTOMATION - Verificando el status code
+17:32:09.014 INFO  AUTOMATION - after: Obtener un Posts por su id, status: PASSED
+17:32:09.042 INFO  AUTOMATION - before: eliminar un Posts
+17:32:09.051 INFO  AUTOMATION - (DELETE) Delete Post
+17:32:09.462 INFO  AUTOMATION - Verificando el status code
+17:32:09.462 INFO  AUTOMATION - after: eliminar un Posts, status: PASSED
+17:32:09.475 INFO  AUTOMATION - before: Ordenar un Posts
+17:32:09.479 INFO  AUTOMATION - (GET) Sort Posts
+17:32:09.820 INFO  AUTOMATION - Verificando el status code
+17:32:09.822 INFO  AUTOMATION - after: Ordenar un Posts, status: PASSED
+17:32:09.843 INFO  AUTOMATION - before: Buscar Posts
+17:32:09.850 INFO  AUTOMATION - (GET) Search Posts
+17:32:10.176 INFO  AUTOMATION - Verificando el status code
+17:32:10.177 INFO  AUTOMATION - after: Buscar Posts, status: PASSED
+17:32:10.194 INFO  AUTOMATION - before: Crear un Posts
+17:32:10.418 INFO  AUTOMATION - (POST) Create Posts
+17:32:11.333 INFO  AUTOMATION - Verificando el status code
+17:32:11.335 INFO  AUTOMATION - after: Crear un Posts, status: PASSED
+17:32:11.358 INFO  AUTOMATION - before: Actualizar un Posts
+17:32:11.382 INFO  AUTOMATION - (PUT) Update Posts
+17:32:11.731 INFO  AUTOMATION - Verificando el status code
+17:32:11.733 INFO  AUTOMATION - after: Actualizar un Posts, status: PASSED
+17:32:11.765 INFO  AUTOMATION - before: Actualizar parcialmente un Posts
+17:32:11.786 INFO  AUTOMATION - (PUT) Partial Update Posts
+17:32:12.107 INFO  AUTOMATION - Verificando el status code
+17:32:12.109 INFO  AUTOMATION - after: Actualizar parcialmente un Posts, status: PASSED
+17:32:12.149 INFO  AUTOMATION - before: Obtener todos los Posts
+17:32:12.154 INFO  AUTOMATION - Autenticandose con el request login
+17:32:12.155 INFO  AUTOMATION - (POST) Login Request
+17:32:13.428 INFO  AUTOMATION - (GET) Get All Post
+17:32:13.753 INFO  AUTOMATION - Verificando el status code
+17:32:13.753 INFO  AUTOMATION - Verificando el response time
+17:32:13.754 INFO  AUTOMATION - after: Obtener todos los Posts, status: PASSED
+17:32:13.762 INFO  AUTOMATION - before: Obtener un Posts por su id
+17:32:13.764 INFO  AUTOMATION - Autenticandose con el request login
+17:32:13.765 INFO  AUTOMATION - (POST) Login Request
+17:32:14.121 INFO  AUTOMATION - (GET) Get Single Post
+17:32:14.430 INFO  AUTOMATION - Verificando el status code
+17:32:14.432 INFO  AUTOMATION - Verificando el response time
+17:32:14.433 INFO  AUTOMATION - Haciendo el Schema validation
+17:32:14.872 INFO  AUTOMATION - after: Obtener un Posts por su id, status: PASSED
+17:32:14.881 INFO  AUTOMATION - before: eliminar un Posts
+17:32:14.885 INFO  AUTOMATION - Autenticandose con el request login
+17:32:14.885 INFO  AUTOMATION - (POST) Login Request
+17:32:15.270 INFO  AUTOMATION - (DELETE) Delete Post
+17:32:15.570 INFO  AUTOMATION - Verificando el status code
+17:32:15.571 INFO  AUTOMATION - Verificando el response time
+17:32:15.572 INFO  AUTOMATION - after: eliminar un Posts, status: PASSED
+17:32:15.591 INFO  AUTOMATION - before: Ordenar un Posts
+17:32:15.606 INFO  AUTOMATION - Autenticandose con el request login
+17:32:15.606 INFO  AUTOMATION - (POST) Login Request
+17:32:15.969 INFO  AUTOMATION - (GET) Sort Posts
+17:32:16.322 INFO  AUTOMATION - Verificando el status code
+17:32:16.324 INFO  AUTOMATION - Verificando el response time
+17:32:16.325 INFO  AUTOMATION - after: Ordenar un Posts, status: PASSED
+17:32:16.341 INFO  AUTOMATION - before: Buscar Posts
+17:32:16.347 INFO  AUTOMATION - Autenticandose con el request login
+17:32:16.347 INFO  AUTOMATION - (POST) Login Request
+17:32:16.692 INFO  AUTOMATION - (GET) Search Posts
+17:32:17.025 INFO  AUTOMATION - Verificando el status code
+17:32:17.027 INFO  AUTOMATION - Verificando el response time
+17:32:17.029 INFO  AUTOMATION - after: Buscar Posts, status: PASSED
+17:32:17.038 INFO  AUTOMATION - before: Crear un Posts
+17:32:17.040 INFO  AUTOMATION - Autenticandose con el request login
+17:32:17.040 INFO  AUTOMATION - (POST) Login Request
+17:32:18.057 INFO  AUTOMATION - (POST) Create Posts
+17:32:19.415 INFO  AUTOMATION - Verificando el status code
+17:32:19.416 INFO  AUTOMATION - Verificando el response time
+17:32:19.416 INFO  AUTOMATION - after: Crear un Posts, status: PASSED
+17:32:19.421 INFO  AUTOMATION - before: Actualizar un Posts
+17:32:19.423 INFO  AUTOMATION - Autenticandose con el request login
+17:32:19.423 INFO  AUTOMATION - (POST) Login Request
+17:32:19.849 INFO  AUTOMATION - (PUT) Update Posts
+17:32:20.729 INFO  AUTOMATION - Verificando el status code
+17:32:20.729 INFO  AUTOMATION - Verificando el response time
+17:32:20.729 INFO  AUTOMATION - after: Actualizar un Posts, status: PASSED
+17:32:20.735 INFO  AUTOMATION - before: Actualizar parcialmente un Posts
+17:32:20.737 INFO  AUTOMATION - Autenticandose con el request login
+17:32:20.737 INFO  AUTOMATION - (POST) Login Request
+17:32:21.063 INFO  AUTOMATION - (PUT) Partial Update Posts
+17:32:21.344 INFO  AUTOMATION - Verificando el status code
+17:32:21.345 INFO  AUTOMATION - Verificando el response time
+17:32:21.347 INFO  AUTOMATION - after: Actualizar parcialmente un Posts, status: PASSED
+17:32:21.357 INFO  AUTOMATION - before: Verificar Posts
+17:32:21.359 INFO  AUTOMATION - Autenticandose con el request login
+17:32:21.359 INFO  AUTOMATION - (POST) Login Request
+17:32:21.664 INFO  AUTOMATION - (GET) Get Single Post
+17:32:21.954 INFO  AUTOMATION - Verificando el status code
+17:32:22.046 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:22.053 INFO  AUTOMATION - before: Verificar Posts
+17:32:22.055 INFO  AUTOMATION - Autenticandose con el request login
+17:32:22.055 INFO  AUTOMATION - (POST) Login Request
+17:32:22.390 INFO  AUTOMATION - (GET) Get Single Post
+17:32:22.684 INFO  AUTOMATION - Verificando el status code
+17:32:22.702 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:22.710 INFO  AUTOMATION - before: Verificar Posts
+17:32:22.712 INFO  AUTOMATION - Autenticandose con el request login
+17:32:22.712 INFO  AUTOMATION - (POST) Login Request
+17:32:23.002 INFO  AUTOMATION - (GET) Get Single Post
+17:32:23.285 INFO  AUTOMATION - Verificando el status code
+17:32:23.292 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:23.297 INFO  AUTOMATION - before: Verificar Posts
+17:32:23.299 INFO  AUTOMATION - Autenticandose con el request login
+17:32:23.299 INFO  AUTOMATION - (POST) Login Request
+17:32:23.629 INFO  AUTOMATION - (GET) Get Single Post
+17:32:24.950 INFO  AUTOMATION - Verificando el status code
+17:32:24.965 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:24.971 INFO  AUTOMATION - before: Verificar Posts
+17:32:24.973 INFO  AUTOMATION - Autenticandose con el request login
+17:32:24.974 INFO  AUTOMATION - (POST) Login Request
+17:32:25.292 INFO  AUTOMATION - (GET) Get Single Post
+17:32:25.602 INFO  AUTOMATION - Verificando el status code
+17:32:25.616 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:25.624 INFO  AUTOMATION - before: Verificar Posts
+17:32:25.626 INFO  AUTOMATION - Autenticandose con el request login
+17:32:25.626 INFO  AUTOMATION - (POST) Login Request
+17:32:25.963 INFO  AUTOMATION - (GET) Get Single Post
+17:32:26.243 INFO  AUTOMATION - Verificando el status code
+17:32:26.259 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:26.267 INFO  AUTOMATION - before: Verificar Posts
+17:32:26.268 INFO  AUTOMATION - Autenticandose con el request login
+17:32:26.268 INFO  AUTOMATION - (POST) Login Request
+17:32:26.593 INFO  AUTOMATION - (GET) Get Single Post
+17:32:26.886 INFO  AUTOMATION - Verificando el status code
+17:32:26.896 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:26.907 INFO  AUTOMATION - before: Verificar Posts
+17:32:26.910 INFO  AUTOMATION - Autenticandose con el request login
+17:32:26.910 INFO  AUTOMATION - (POST) Login Request
+17:32:27.278 INFO  AUTOMATION - (GET) Get Single Post
+17:32:27.604 INFO  AUTOMATION - Verificando el status code
+17:32:27.628 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:27.645 INFO  AUTOMATION - before: Verificar Posts
+17:32:27.647 INFO  AUTOMATION - Autenticandose con el request login
+17:32:27.647 INFO  AUTOMATION - (POST) Login Request
+17:32:28.023 INFO  AUTOMATION - (GET) Get Single Post
+17:32:28.321 INFO  AUTOMATION - Verificando el status code
+17:32:28.343 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:28.361 INFO  AUTOMATION - before: Verificar Posts
+17:32:28.363 INFO  AUTOMATION - Autenticandose con el request login
+17:32:28.363 INFO  AUTOMATION - (POST) Login Request
+17:32:28.703 INFO  AUTOMATION - (GET) Get Single Post
+17:32:29.005 INFO  AUTOMATION - Verificando el status code
+17:32:29.031 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:32:29.048 INFO  AUTOMATION - before: Obtener un Post con id inexistente
+17:32:29.050 INFO  AUTOMATION - Autenticandose con el request login
+17:32:29.050 INFO  AUTOMATION - (POST) Login Request
+17:32:29.422 INFO  AUTOMATION - (GET) Get Single Post
+17:32:29.710 INFO  AUTOMATION - Verificando el status code
+17:32:29.711 INFO  AUTOMATION - after: Obtener un Post con id inexistente, status: PASSED
+17:32:29.731 INFO  AUTOMATION - before: Eliminar un Post con id inexistente
+17:32:29.734 INFO  AUTOMATION - Autenticandose con el request login
+17:32:29.735 INFO  AUTOMATION - (POST) Login Request
+17:32:30.068 INFO  AUTOMATION - (DELETE) Delete Post
+17:32:30.378 INFO  AUTOMATION - Verificando el status code
+17:32:30.378 INFO  AUTOMATION - after: Eliminar un Post con id inexistente, status: PASSED
+17:32:30.385 INFO  AUTOMATION - before: Actualizar un Post con id inexistente
+17:32:30.386 INFO  AUTOMATION - Autenticandose con el request login
+17:32:30.386 INFO  AUTOMATION - (POST) Login Request
+17:32:30.715 INFO  AUTOMATION - (PUT) Update Posts
+17:32:30.995 INFO  AUTOMATION - Verificando el status code
+17:32:30.995 INFO  AUTOMATION - after: Actualizar un Post con id inexistente, status: PASSED
+17:32:31.005 INFO  AUTOMATION - before: Actualizar parcialmente un Post con id inexistente
+17:32:31.007 INFO  AUTOMATION - Autenticandose con el request login
+17:32:31.007 INFO  AUTOMATION - (POST) Login Request
+17:32:31.327 INFO  AUTOMATION - (PUT) Partial Update Posts
+17:32:31.709 INFO  AUTOMATION - Verificando el status code
+17:32:31.709 INFO  AUTOMATION - after: Actualizar parcialmente un Post con id inexistente, status: PASSED
+17:32:31.719 INFO  AUTOMATION - before: Obtener todos los Products
+17:32:31.723 INFO  AUTOMATION - (GET) Get All poducts
+17:32:32.004 INFO  AUTOMATION - Verificando el status code
+17:32:32.006 INFO  AUTOMATION - after: Obtener todos los Products, status: PASSED
+17:32:32.022 INFO  AUTOMATION - before: Obtener un solo Product
+17:32:32.024 INFO  AUTOMATION - (GET) Get Single Product
+17:32:32.315 INFO  AUTOMATION - Verificando el status code
+17:32:32.317 INFO  AUTOMATION - after: Obtener un solo Product, status: PASSED
+17:32:32.333 INFO  AUTOMATION - before: Eliminar un Product
+17:32:32.337 INFO  AUTOMATION - (DELETE) Delete Products
+17:32:33.004 INFO  AUTOMATION - Verificando el status code
+17:32:33.005 INFO  AUTOMATION - after: Eliminar un Product, status: PASSED
+17:32:33.010 INFO  AUTOMATION - before: Ordenar Products
+17:32:33.011 INFO  AUTOMATION - (GET) Sort poducts
+17:32:33.300 INFO  AUTOMATION - Verificando el status code
+17:32:33.300 INFO  AUTOMATION - after: Ordenar Products, status: PASSED
+17:32:33.309 INFO  AUTOMATION - before: Buscar Products
+17:32:33.310 INFO  AUTOMATION - (GET) Search Products
+17:32:33.647 INFO  AUTOMATION - Verificando el status code
+17:32:33.651 INFO  AUTOMATION - after: Buscar Products, status: PASSED
+17:32:33.659 INFO  AUTOMATION - before: Crear un Product
+17:32:34.055 INFO  AUTOMATION - (POST) Create Products
+17:32:35.553 INFO  AUTOMATION - Verificando el status code
+17:32:35.554 INFO  AUTOMATION - after: Crear un Product, status: PASSED
+17:32:35.557 INFO  AUTOMATION - before: Actualizar un Product
+17:32:35.580 INFO  AUTOMATION - (PUT) Update Products
+17:32:35.889 INFO  AUTOMATION - Verificando el status code
+17:32:35.889 INFO  AUTOMATION - after: Actualizar un Product, status: PASSED
+17:32:35.893 INFO  AUTOMATION - before: Actualizar parcialmente un Product
+17:32:35.928 INFO  AUTOMATION - (PACH) Partial Update Products
+17:32:36.216 INFO  AUTOMATION - Verificando el status code
+17:32:36.216 INFO  AUTOMATION - after: Actualizar parcialmente un Product, status: PASSED
+17:32:36.237 INFO  AUTOMATION - before: Obtener todos los Products
+17:32:36.240 INFO  AUTOMATION - Autenticandose con el request login
+17:32:36.241 INFO  AUTOMATION - (POST) Login Request
+17:32:36.599 INFO  AUTOMATION - (GET) Get All poducts
+17:32:36.944 INFO  AUTOMATION - Verificando el status code
+17:32:36.945 INFO  AUTOMATION - Verificando el response time
+17:32:36.946 INFO  AUTOMATION - after: Obtener todos los Products, status: PASSED
+17:32:36.950 INFO  AUTOMATION - before: Obtener un solo Product
+17:32:36.952 INFO  AUTOMATION - Autenticandose con el request login
+17:32:36.952 INFO  AUTOMATION - (POST) Login Request
+17:32:37.247 INFO  AUTOMATION - (GET) Get Single Product
+17:32:37.532 INFO  AUTOMATION - Verificando el status code
+17:32:37.533 INFO  AUTOMATION - Verificando el response time
+17:32:37.534 INFO  AUTOMATION - Haciendo el Schema validation
+17:32:37.580 INFO  AUTOMATION - after: Obtener un solo Product, status: PASSED
+17:32:37.585 INFO  AUTOMATION - before: Eliminar un Product
+17:32:37.586 INFO  AUTOMATION - Autenticandose con el request login
+17:32:37.586 INFO  AUTOMATION - (POST) Login Request
+17:32:37.887 INFO  AUTOMATION - (DELETE) Delete Products
+17:32:38.179 INFO  AUTOMATION - Verificando el status code
+17:32:38.180 INFO  AUTOMATION - Verificando el response time
+17:32:38.181 INFO  AUTOMATION - after: Eliminar un Product, status: PASSED
+17:32:38.190 INFO  AUTOMATION - before: Ordenar Products
+17:32:38.192 INFO  AUTOMATION - Autenticandose con el request login
+17:32:38.192 INFO  AUTOMATION - (POST) Login Request
+17:32:38.501 INFO  AUTOMATION - (GET) Sort poducts
+17:32:38.816 INFO  AUTOMATION - Verificando el status code
+17:32:38.817 INFO  AUTOMATION - Verificando el response time
+17:32:38.817 INFO  AUTOMATION - after: Ordenar Products, status: PASSED
+17:32:38.829 INFO  AUTOMATION - before: Buscar Products
+17:32:38.831 INFO  AUTOMATION - Autenticandose con el request login
+17:32:38.831 INFO  AUTOMATION - (POST) Login Request
+17:32:39.133 INFO  AUTOMATION - (GET) Search Products
+17:32:39.463 INFO  AUTOMATION - Verificando el status code
+17:32:39.463 INFO  AUTOMATION - Verificando el response time
+17:32:39.464 INFO  AUTOMATION - after: Buscar Products, status: PASSED
+17:32:39.469 INFO  AUTOMATION - before: Crear un Product
+17:32:39.470 INFO  AUTOMATION - Autenticandose con el request login
+17:32:39.470 INFO  AUTOMATION - (POST) Login Request
+17:32:39.819 INFO  AUTOMATION - (POST) Create Products
+17:32:40.095 INFO  AUTOMATION - Verificando el status code
+17:32:40.096 INFO  AUTOMATION - Verificando el response time
+17:32:40.097 INFO  AUTOMATION - after: Crear un Product, status: PASSED
+17:32:40.105 INFO  AUTOMATION - before: Actualizar un Product
+17:32:40.107 INFO  AUTOMATION - Autenticandose con el request login
+17:32:40.107 INFO  AUTOMATION - (POST) Login Request
+17:32:40.406 INFO  AUTOMATION - (PUT) Update Products
+17:32:40.692 INFO  AUTOMATION - Verificando el status code
+17:32:40.693 INFO  AUTOMATION - Verificando el response time
+17:32:40.694 INFO  AUTOMATION - after: Actualizar un Product, status: PASSED
+17:32:40.706 INFO  AUTOMATION - before: Actualizar parcialmente un Product
+17:32:40.714 INFO  AUTOMATION - Autenticandose con el request login
+17:32:40.714 INFO  AUTOMATION - (POST) Login Request
+17:32:41.054 INFO  AUTOMATION - (PACH) Partial Update Products
+17:32:41.345 INFO  AUTOMATION - Verificando el status code
+17:32:41.346 INFO  AUTOMATION - Verificando el response time
+17:32:41.346 INFO  AUTOMATION - after: Actualizar parcialmente un Product, status: PASSED
+17:32:41.364 INFO  AUTOMATION - before: Obtener un Product con id inexistente
+17:32:41.367 INFO  AUTOMATION - Autenticandose con el request login
+17:32:41.367 INFO  AUTOMATION - (POST) Login Request
+17:32:41.670 INFO  AUTOMATION - (GET) Get Single Product
+17:32:41.963 INFO  AUTOMATION - Verificando el status code
+17:32:41.963 INFO  AUTOMATION - after: Obtener un Product con id inexistente, status: PASSED
+17:32:41.980 INFO  AUTOMATION - before: Eliminar un Product con un id inexistente
+17:32:41.985 INFO  AUTOMATION - Autenticandose con el request login
+17:32:41.985 INFO  AUTOMATION - (POST) Login Request
+17:32:42.340 INFO  AUTOMATION - (DELETE) Delete Products
+17:32:42.638 INFO  AUTOMATION - Verificando el status code
+17:32:42.639 INFO  AUTOMATION - after: Eliminar un Product con un id inexistente, status: PASSED
+17:32:42.645 INFO  AUTOMATION - before: Actualizar un Product con id inexistente
+17:32:42.647 INFO  AUTOMATION - Autenticandose con el request login
+17:32:42.647 INFO  AUTOMATION - (POST) Login Request
+17:32:42.957 INFO  AUTOMATION - (PUT) Update Products
+17:32:43.245 INFO  AUTOMATION - Verificando el status code
+17:32:43.246 INFO  AUTOMATION - after: Actualizar un Product con id inexistente, status: PASSED
+17:32:43.256 INFO  AUTOMATION - before: Actualizar parcialmente un Product con id inexistente
+17:32:43.258 INFO  AUTOMATION - Autenticandose con el request login
+17:32:43.258 INFO  AUTOMATION - (POST) Login Request
+17:32:43.557 INFO  AUTOMATION - (PACH) Partial Update Products
+17:32:43.848 INFO  AUTOMATION - Verificando el status code
+17:32:43.848 INFO  AUTOMATION - after: Actualizar parcialmente un Product con id inexistente, status: PASSED
+17:32:43.862 INFO  AUTOMATION - before: Obtener todos los Users
+17:32:43.865 INFO  AUTOMATION - (GET) Get All User
+17:32:44.159 INFO  AUTOMATION - Verificando el status code
+17:32:44.160 INFO  AUTOMATION - after: Obtener todos los Users, status: PASSED
+17:32:44.172 INFO  AUTOMATION - before: Obtener un User por su id
+17:32:44.175 INFO  AUTOMATION - (GET) Get User
+17:32:44.459 INFO  AUTOMATION - Verificando el status code
+17:32:44.460 INFO  AUTOMATION - after: Obtener un User por su id, status: PASSED
+17:32:44.468 INFO  AUTOMATION - before: eliminar un User
+17:32:44.470 INFO  AUTOMATION - (DELETE) Delete User
+17:32:44.763 INFO  AUTOMATION - Verificando el status code
+17:32:44.764 INFO  AUTOMATION - after: eliminar un User, status: PASSED
+17:32:44.777 INFO  AUTOMATION - before: Ordenar un User
+17:32:44.779 INFO  AUTOMATION - (GET) Sort User
+17:32:45.066 INFO  AUTOMATION - Verificando el status code
+17:32:45.067 INFO  AUTOMATION - after: Ordenar un User, status: PASSED
+17:32:45.080 INFO  AUTOMATION - before: Filtrar Users
+17:32:45.082 INFO  AUTOMATION - (GET) Filter User
+17:32:45.376 INFO  AUTOMATION - Verificando el status code
+17:32:45.376 INFO  AUTOMATION - after: Filtrar Users, status: PASSED
+17:32:45.390 INFO  AUTOMATION - before: Crear un User
+17:32:45.522 INFO  AUTOMATION - (POST) Create User
+17:32:46.841 INFO  AUTOMATION - Verificando el status code
+17:32:46.841 INFO  AUTOMATION - after: Crear un User, status: PASSED
+17:32:46.857 INFO  AUTOMATION - before: Actualizar un User
+17:32:46.943 INFO  AUTOMATION - (PUT) Update User
+17:32:47.228 INFO  AUTOMATION - Verificando el status code
+17:32:47.229 INFO  AUTOMATION - after: Actualizar un User, status: PASSED
+17:32:47.236 INFO  AUTOMATION - before: Actualizar parcialmente un User
+17:32:47.253 INFO  AUTOMATION - (PATCH) Partial Update User
+17:32:47.547 INFO  AUTOMATION - Verificando el status code
+17:32:47.547 INFO  AUTOMATION - after: Actualizar parcialmente un User, status: PASSED
+17:32:47.553 INFO  AUTOMATION - before: Obtener un User con id inexistente
+17:32:47.554 INFO  AUTOMATION - Autenticandose con el request login
+17:32:47.554 INFO  AUTOMATION - (POST) Login Request
+17:32:47.875 INFO  AUTOMATION - (GET) Get User
+17:32:48.184 INFO  AUTOMATION - Verificando el status code
+17:32:48.184 INFO  AUTOMATION - after: Obtener un User con id inexistente, status: PASSED
+17:32:48.213 INFO  AUTOMATION - before: Eliminar un User con un id inexistente
+17:32:48.215 INFO  AUTOMATION - Autenticandose con el request login
+17:32:48.215 INFO  AUTOMATION - (POST) Login Request
+17:32:48.512 INFO  AUTOMATION - (DELETE) Delete User
+17:32:48.821 INFO  AUTOMATION - Verificando el status code
+17:32:48.821 INFO  AUTOMATION - after: Eliminar un User con un id inexistente, status: PASSED
+17:32:48.828 INFO  AUTOMATION - before: Actualizar un User con id inexistente
+17:32:48.857 INFO  AUTOMATION - Autenticandose con el request login
+17:32:48.857 INFO  AUTOMATION - (POST) Login Request
+17:32:50.475 INFO  AUTOMATION - (PUT) Update User
+17:32:50.752 INFO  AUTOMATION - Verificando el status code
+17:32:50.752 INFO  AUTOMATION - after: Actualizar un User con id inexistente, status: PASSED
+17:32:50.756 INFO  AUTOMATION - before: Actualizar parcialmente un User con id inexistente
+17:32:50.757 INFO  AUTOMATION - Autenticandose con el request login
+17:32:50.757 INFO  AUTOMATION - (POST) Login Request
+17:32:51.072 INFO  AUTOMATION - (PATCH) Partial Update User
+17:32:51.417 INFO  AUTOMATION - Verificando el status code
+17:32:51.417 INFO  AUTOMATION - after: Actualizar parcialmente un User con id inexistente, status: PASSED
+17:32:51.422 INFO  AUTOMATION - before: Obtener todos los Users
+17:32:51.424 INFO  AUTOMATION - Autenticandose con el request login
+17:32:51.424 INFO  AUTOMATION - (POST) Login Request
+17:32:51.723 INFO  AUTOMATION - (GET) Get All User
+17:32:52.046 INFO  AUTOMATION - Verificando el status code
+17:32:52.047 INFO  AUTOMATION - Verificando el response time
+17:32:52.047 INFO  AUTOMATION - after: Obtener todos los Users, status: PASSED
+17:32:52.051 INFO  AUTOMATION - before: Obtener un User por su id
+17:32:52.053 INFO  AUTOMATION - Autenticandose con el request login
+17:32:52.053 INFO  AUTOMATION - (POST) Login Request
+17:32:52.352 INFO  AUTOMATION - (GET) Get User
+17:32:52.635 INFO  AUTOMATION - Verificando el status code
+17:32:52.636 INFO  AUTOMATION - Verificando el response time
+17:32:52.636 INFO  AUTOMATION - Haciendo el Schema validation
+17:32:52.690 INFO  AUTOMATION - after: Obtener un User por su id, status: PASSED
+17:32:52.697 INFO  AUTOMATION - before: eliminar un User
+17:32:52.698 INFO  AUTOMATION - Autenticandose con el request login
+17:32:52.698 INFO  AUTOMATION - (POST) Login Request
+17:32:53.012 INFO  AUTOMATION - (DELETE) Delete User
+17:32:53.310 INFO  AUTOMATION - Verificando el status code
+17:32:53.311 INFO  AUTOMATION - Verificando el response time
+17:32:53.311 INFO  AUTOMATION - after: eliminar un User, status: PASSED
+17:32:53.324 INFO  AUTOMATION - before: Ordenar un User
+17:32:53.327 INFO  AUTOMATION - Autenticandose con el request login
+17:32:53.327 INFO  AUTOMATION - (POST) Login Request
+17:32:53.626 INFO  AUTOMATION - (GET) Sort User
+17:32:53.939 INFO  AUTOMATION - Verificando el status code
+17:32:53.940 INFO  AUTOMATION - Verificando el response time
+17:32:53.940 INFO  AUTOMATION - after: Ordenar un User, status: PASSED
+17:32:53.947 INFO  AUTOMATION - before: Filtrar Users
+17:32:53.948 INFO  AUTOMATION - Autenticandose con el request login
+17:32:53.948 INFO  AUTOMATION - (POST) Login Request
+17:32:54.262 INFO  AUTOMATION - (GET) Filter User
+17:32:54.574 INFO  AUTOMATION - Verificando el status code
+17:32:54.574 INFO  AUTOMATION - Verificando el response time
+17:32:54.574 INFO  AUTOMATION - after: Filtrar Users, status: PASSED
+17:32:54.579 INFO  AUTOMATION - before: Crear un User
+17:32:54.579 INFO  AUTOMATION - Autenticandose con el request login
+17:32:54.579 INFO  AUTOMATION - (POST) Login Request
+17:32:54.964 INFO  AUTOMATION - (POST) Create User
+17:32:55.269 INFO  AUTOMATION - Verificando el status code
+17:32:55.269 INFO  AUTOMATION - Verificando el response time
+17:32:55.270 INFO  AUTOMATION - after: Crear un User, status: PASSED
+17:32:55.283 INFO  AUTOMATION - before: Actualizar un User
+17:32:55.286 INFO  AUTOMATION - Autenticandose con el request login
+17:32:55.286 INFO  AUTOMATION - (POST) Login Request
+17:32:55.687 INFO  AUTOMATION - (PUT) Update User
+17:32:56.006 INFO  AUTOMATION - Verificando el status code
+17:32:56.007 INFO  AUTOMATION - Verificando el response time
+17:32:56.008 INFO  AUTOMATION - after: Actualizar un User, status: PASSED
+17:32:56.022 INFO  AUTOMATION - before: Actualizar parcialmente un User
+17:32:56.026 INFO  AUTOMATION - Autenticandose con el request login
+17:32:56.026 INFO  AUTOMATION - (POST) Login Request
+17:32:56.366 INFO  AUTOMATION - (PATCH) Partial Update User
+17:32:56.647 INFO  AUTOMATION - Verificando el status code
+17:32:56.647 INFO  AUTOMATION - Verificando el response time
+17:32:56.648 INFO  AUTOMATION - after: Actualizar parcialmente un User, status: PASSED
+17:32:56.654 INFO  AUTOMATION - afterAll
+17:32:57.113 INFO  AUTOMATION - beforeAll
+17:32:57.118 INFO  AUTOMATION - before: Login Correcto
+17:32:57.121 INFO  AUTOMATION - (POST) Login Request
+17:32:57.404 INFO  AUTOMATION - Verificando el status code
+17:32:57.405 INFO  AUTOMATION - Verificando el response time
+17:32:57.434 INFO  AUTOMATION - after: Login Correcto, status: PASSED
+17:32:57.457 INFO  AUTOMATION - before: Login con credenciales Erroneas
+17:32:57.461 INFO  AUTOMATION - (POST) Login Request
+17:32:57.750 INFO  AUTOMATION - Verificando el status code
+17:32:57.751 INFO  AUTOMATION - after: Login con credenciales Erroneas, status: PASSED
+17:32:57.768 INFO  AUTOMATION - before: Login con credenciales Erroneas
+17:32:57.772 INFO  AUTOMATION - (POST) Login Request
+17:32:58.094 INFO  AUTOMATION - Verificando el status code
+17:32:58.094 INFO  AUTOMATION - after: Login con credenciales Erroneas, status: PASSED
+17:32:58.116 INFO  AUTOMATION - before: Obtener todos los Posts
+17:32:58.119 INFO  AUTOMATION - (GET) Get All Post
+17:32:58.429 INFO  AUTOMATION - Verificando el status code
+17:32:58.429 INFO  AUTOMATION - after: Obtener todos los Posts, status: PASSED
+17:32:58.433 INFO  AUTOMATION - before: Obtener un Posts por su id
+17:32:58.434 INFO  AUTOMATION - (GET) Get Single Post
+17:32:58.708 INFO  AUTOMATION - Verificando el status code
+17:32:58.708 INFO  AUTOMATION - after: Obtener un Posts por su id, status: PASSED
+17:32:58.717 INFO  AUTOMATION - before: eliminar un Posts
+17:32:58.719 INFO  AUTOMATION - (DELETE) Delete Post
+17:32:58.993 INFO  AUTOMATION - Verificando el status code
+17:32:58.993 INFO  AUTOMATION - after: eliminar un Posts, status: PASSED
+17:32:58.997 INFO  AUTOMATION - before: Ordenar un Posts
+17:32:58.999 INFO  AUTOMATION - (GET) Sort Posts
+17:32:59.283 INFO  AUTOMATION - Verificando el status code
+17:32:59.284 INFO  AUTOMATION - after: Ordenar un Posts, status: PASSED
+17:32:59.296 INFO  AUTOMATION - before: Buscar Posts
+17:32:59.299 INFO  AUTOMATION - (GET) Search Posts
+17:32:59.572 INFO  AUTOMATION - Verificando el status code
+17:32:59.572 INFO  AUTOMATION - after: Buscar Posts, status: PASSED
+17:32:59.577 INFO  AUTOMATION - before: Crear un Posts
+17:32:59.581 INFO  AUTOMATION - (POST) Create Posts
+17:32:59.877 INFO  AUTOMATION - Verificando el status code
+17:32:59.878 INFO  AUTOMATION - after: Crear un Posts, status: PASSED
+17:32:59.888 INFO  AUTOMATION - before: Actualizar un Posts
+17:32:59.896 INFO  AUTOMATION - (PUT) Update Posts
+17:33:00.213 INFO  AUTOMATION - Verificando el status code
+17:33:00.213 INFO  AUTOMATION - after: Actualizar un Posts, status: PASSED
+17:33:00.226 INFO  AUTOMATION - before: Actualizar parcialmente un Posts
+17:33:00.234 INFO  AUTOMATION - (PUT) Partial Update Posts
+17:33:00.510 INFO  AUTOMATION - Verificando el status code
+17:33:00.510 INFO  AUTOMATION - after: Actualizar parcialmente un Posts, status: PASSED
+17:33:00.517 INFO  AUTOMATION - before: Obtener todos los Posts
+17:33:00.517 INFO  AUTOMATION - Autenticandose con el request login
+17:33:00.518 INFO  AUTOMATION - (POST) Login Request
+17:33:00.810 INFO  AUTOMATION - (GET) Get All Post
+17:33:01.098 INFO  AUTOMATION - Verificando el status code
+17:33:01.098 INFO  AUTOMATION - Verificando el response time
+17:33:01.099 INFO  AUTOMATION - after: Obtener todos los Posts, status: PASSED
+17:33:01.105 INFO  AUTOMATION - before: Obtener un Posts por su id
+17:33:01.107 INFO  AUTOMATION - Autenticandose con el request login
+17:33:01.107 INFO  AUTOMATION - (POST) Login Request
+17:33:01.398 INFO  AUTOMATION - (GET) Get Single Post
+17:33:01.674 INFO  AUTOMATION - Verificando el status code
+17:33:01.674 INFO  AUTOMATION - Verificando el response time
+17:33:01.674 INFO  AUTOMATION - Haciendo el Schema validation
+17:33:01.689 INFO  AUTOMATION - after: Obtener un Posts por su id, status: PASSED
+17:33:01.694 INFO  AUTOMATION - before: eliminar un Posts
+17:33:01.695 INFO  AUTOMATION - Autenticandose con el request login
+17:33:01.695 INFO  AUTOMATION - (POST) Login Request
+17:33:03.014 INFO  AUTOMATION - (DELETE) Delete Post
+17:33:03.321 INFO  AUTOMATION - Verificando el status code
+17:33:03.322 INFO  AUTOMATION - Verificando el response time
+17:33:03.322 INFO  AUTOMATION - after: eliminar un Posts, status: PASSED
+17:33:03.331 INFO  AUTOMATION - before: Ordenar un Posts
+17:33:03.332 INFO  AUTOMATION - Autenticandose con el request login
+17:33:03.332 INFO  AUTOMATION - (POST) Login Request
+17:33:03.664 INFO  AUTOMATION - (GET) Sort Posts
+17:33:03.965 INFO  AUTOMATION - Verificando el status code
+17:33:03.965 INFO  AUTOMATION - Verificando el response time
+17:33:03.965 INFO  AUTOMATION - after: Ordenar un Posts, status: PASSED
+17:33:03.969 INFO  AUTOMATION - before: Buscar Posts
+17:33:03.970 INFO  AUTOMATION - Autenticandose con el request login
+17:33:03.970 INFO  AUTOMATION - (POST) Login Request
+17:33:07.594 INFO  AUTOMATION - (GET) Search Posts
+17:33:07.882 INFO  AUTOMATION - Verificando el status code
+17:33:07.883 INFO  AUTOMATION - Verificando el response time
+17:33:07.883 INFO  AUTOMATION - after: Buscar Posts, status: PASSED
+17:33:07.894 INFO  AUTOMATION - before: Crear un Posts
+17:33:07.896 INFO  AUTOMATION - Autenticandose con el request login
+17:33:07.896 INFO  AUTOMATION - (POST) Login Request
+17:33:08.212 INFO  AUTOMATION - (POST) Create Posts
+17:33:08.492 INFO  AUTOMATION - Verificando el status code
+17:33:08.493 INFO  AUTOMATION - Verificando el response time
+17:33:08.494 INFO  AUTOMATION - after: Crear un Posts, status: PASSED
+17:33:08.509 INFO  AUTOMATION - before: Actualizar un Posts
+17:33:08.511 INFO  AUTOMATION - Autenticandose con el request login
+17:33:08.511 INFO  AUTOMATION - (POST) Login Request
+17:33:09.843 INFO  AUTOMATION - (PUT) Update Posts
+17:33:10.133 INFO  AUTOMATION - Verificando el status code
+17:33:10.134 INFO  AUTOMATION - Verificando el response time
+17:33:10.134 INFO  AUTOMATION - after: Actualizar un Posts, status: PASSED
+17:33:10.144 INFO  AUTOMATION - before: Actualizar parcialmente un Posts
+17:33:10.148 INFO  AUTOMATION - Autenticandose con el request login
+17:33:10.148 INFO  AUTOMATION - (POST) Login Request
+17:33:10.447 INFO  AUTOMATION - (PUT) Partial Update Posts
+17:33:10.726 INFO  AUTOMATION - Verificando el status code
+17:33:10.727 INFO  AUTOMATION - Verificando el response time
+17:33:10.728 INFO  AUTOMATION - after: Actualizar parcialmente un Posts, status: PASSED
+17:33:10.737 INFO  AUTOMATION - before: Verificar Posts
+17:33:10.738 INFO  AUTOMATION - Autenticandose con el request login
+17:33:10.738 INFO  AUTOMATION - (POST) Login Request
+17:33:11.018 INFO  AUTOMATION - (GET) Get Single Post
+17:33:11.400 INFO  AUTOMATION - Verificando el status code
+17:33:11.412 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:11.418 INFO  AUTOMATION - before: Verificar Posts
+17:33:11.419 INFO  AUTOMATION - Autenticandose con el request login
+17:33:11.419 INFO  AUTOMATION - (POST) Login Request
+17:33:11.723 INFO  AUTOMATION - (GET) Get Single Post
+17:33:12.001 INFO  AUTOMATION - Verificando el status code
+17:33:12.011 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:12.018 INFO  AUTOMATION - before: Verificar Posts
+17:33:12.019 INFO  AUTOMATION - Autenticandose con el request login
+17:33:12.019 INFO  AUTOMATION - (POST) Login Request
+17:33:12.306 INFO  AUTOMATION - (GET) Get Single Post
+17:33:12.576 INFO  AUTOMATION - Verificando el status code
+17:33:12.584 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:12.590 INFO  AUTOMATION - before: Verificar Posts
+17:33:12.591 INFO  AUTOMATION - Autenticandose con el request login
+17:33:12.592 INFO  AUTOMATION - (POST) Login Request
+17:33:12.897 INFO  AUTOMATION - (GET) Get Single Post
+17:33:13.190 INFO  AUTOMATION - Verificando el status code
+17:33:13.202 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:13.208 INFO  AUTOMATION - before: Verificar Posts
+17:33:13.210 INFO  AUTOMATION - Autenticandose con el request login
+17:33:13.211 INFO  AUTOMATION - (POST) Login Request
+17:33:13.508 INFO  AUTOMATION - (GET) Get Single Post
+17:33:13.780 INFO  AUTOMATION - Verificando el status code
+17:33:13.794 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:13.799 INFO  AUTOMATION - before: Verificar Posts
+17:33:13.800 INFO  AUTOMATION - Autenticandose con el request login
+17:33:13.800 INFO  AUTOMATION - (POST) Login Request
+17:33:14.091 INFO  AUTOMATION - (GET) Get Single Post
+17:33:14.378 INFO  AUTOMATION - Verificando el status code
+17:33:14.390 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:14.397 INFO  AUTOMATION - before: Verificar Posts
+17:33:14.398 INFO  AUTOMATION - Autenticandose con el request login
+17:33:14.398 INFO  AUTOMATION - (POST) Login Request
+17:33:15.730 INFO  AUTOMATION - (GET) Get Single Post
+17:33:17.058 INFO  AUTOMATION - Verificando el status code
+17:33:17.075 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:17.092 INFO  AUTOMATION - before: Verificar Posts
+17:33:17.095 INFO  AUTOMATION - Autenticandose con el request login
+17:33:17.095 INFO  AUTOMATION - (POST) Login Request
+17:33:17.383 INFO  AUTOMATION - (GET) Get Single Post
+17:33:17.696 INFO  AUTOMATION - Verificando el status code
+17:33:17.714 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:17.718 INFO  AUTOMATION - before: Verificar Posts
+17:33:17.719 INFO  AUTOMATION - Autenticandose con el request login
+17:33:17.719 INFO  AUTOMATION - (POST) Login Request
+17:33:18.024 INFO  AUTOMATION - (GET) Get Single Post
+17:33:19.312 INFO  AUTOMATION - Verificando el status code
+17:33:19.327 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:19.344 INFO  AUTOMATION - before: Verificar Posts
+17:33:19.345 INFO  AUTOMATION - Autenticandose con el request login
+17:33:19.345 INFO  AUTOMATION - (POST) Login Request
+17:33:20.582 INFO  AUTOMATION - (GET) Get Single Post
+17:33:20.867 INFO  AUTOMATION - Verificando el status code
+17:33:20.871 INFO  AUTOMATION - after: Verificar Posts, status: PASSED
+17:33:20.876 INFO  AUTOMATION - before: Obtener un Post con id inexistente
+17:33:20.877 INFO  AUTOMATION - Autenticandose con el request login
+17:33:20.877 INFO  AUTOMATION - (POST) Login Request
+17:33:21.174 INFO  AUTOMATION - (GET) Get Single Post
+17:33:21.457 INFO  AUTOMATION - Verificando el status code
+17:33:21.457 INFO  AUTOMATION - after: Obtener un Post con id inexistente, status: PASSED
+17:33:21.463 INFO  AUTOMATION - before: Eliminar un Post con id inexistente
+17:33:21.466 INFO  AUTOMATION - Autenticandose con el request login
+17:33:21.466 INFO  AUTOMATION - (POST) Login Request
+17:33:21.757 INFO  AUTOMATION - (DELETE) Delete Post
+17:33:22.023 INFO  AUTOMATION - Verificando el status code
+17:33:22.024 INFO  AUTOMATION - after: Eliminar un Post con id inexistente, status: PASSED
+17:33:22.037 INFO  AUTOMATION - before: Actualizar un Post con id inexistente
+17:33:22.039 INFO  AUTOMATION - Autenticandose con el request login
+17:33:22.039 INFO  AUTOMATION - (POST) Login Request
+17:33:22.339 INFO  AUTOMATION - (PUT) Update Posts
+17:33:22.607 INFO  AUTOMATION - Verificando el status code
+17:33:22.607 INFO  AUTOMATION - after: Actualizar un Post con id inexistente, status: PASSED
+17:33:22.611 INFO  AUTOMATION - before: Actualizar parcialmente un Post con id inexistente
+17:33:22.612 INFO  AUTOMATION - Autenticandose con el request login
+17:33:22.612 INFO  AUTOMATION - (POST) Login Request
+17:33:23.918 INFO  AUTOMATION - (PUT) Partial Update Posts
+17:33:24.192 INFO  AUTOMATION - Verificando el status code
+17:33:24.193 INFO  AUTOMATION - after: Actualizar parcialmente un Post con id inexistente, status: PASSED
+17:33:24.205 INFO  AUTOMATION - before: Obtener todos los Products
+17:33:24.206 INFO  AUTOMATION - (GET) Get All poducts
+17:33:24.491 INFO  AUTOMATION - Verificando el status code
+17:33:24.492 INFO  AUTOMATION - after: Obtener todos los Products, status: PASSED
+17:33:24.498 INFO  AUTOMATION - before: Obtener un solo Product
+17:33:24.501 INFO  AUTOMATION - (GET) Get Single Product
+17:33:24.777 INFO  AUTOMATION - Verificando el status code
+17:33:24.777 INFO  AUTOMATION - after: Obtener un solo Product, status: PASSED
+17:33:24.788 INFO  AUTOMATION - before: Eliminar un Product
+17:33:24.789 INFO  AUTOMATION - (DELETE) Delete Products
+17:33:25.067 INFO  AUTOMATION - Verificando el status code
+17:33:25.068 INFO  AUTOMATION - after: Eliminar un Product, status: PASSED
+17:33:25.079 INFO  AUTOMATION - before: Ordenar Products
+17:33:25.085 INFO  AUTOMATION - (GET) Sort poducts
+17:33:25.363 INFO  AUTOMATION - Verificando el status code
+17:33:25.363 INFO  AUTOMATION - after: Ordenar Products, status: PASSED
+17:33:25.367 INFO  AUTOMATION - before: Buscar Products
+17:33:25.368 INFO  AUTOMATION - (GET) Search Products
+17:33:25.644 INFO  AUTOMATION - Verificando el status code
+17:33:25.644 INFO  AUTOMATION - after: Buscar Products, status: PASSED
+17:33:25.648 INFO  AUTOMATION - before: Crear un Product
+17:33:25.658 INFO  AUTOMATION - (POST) Create Products
+17:33:25.935 INFO  AUTOMATION - Verificando el status code
+17:33:25.935 INFO  AUTOMATION - after: Crear un Product, status: PASSED
+17:33:25.945 INFO  AUTOMATION - before: Actualizar un Product
+17:33:25.972 INFO  AUTOMATION - (PUT) Update Products
+17:33:26.245 INFO  AUTOMATION - Verificando el status code
+17:33:26.245 INFO  AUTOMATION - after: Actualizar un Product, status: PASSED
+17:33:26.254 INFO  AUTOMATION - before: Actualizar parcialmente un Product
+17:33:26.259 INFO  AUTOMATION - (PACH) Partial Update Products
+17:33:27.559 INFO  AUTOMATION - Verificando el status code
+17:33:27.560 INFO  AUTOMATION - after: Actualizar parcialmente un Product, status: PASSED
+17:33:27.572 INFO  AUTOMATION - before: Obtener todos los Products
+17:33:27.573 INFO  AUTOMATION - Autenticandose con el request login
+17:33:27.573 INFO  AUTOMATION - (POST) Login Request
+17:33:27.882 INFO  AUTOMATION - (GET) Get All poducts
+17:33:28.192 INFO  AUTOMATION - Verificando el status code
+17:33:28.192 INFO  AUTOMATION - Verificando el response time
+17:33:28.192 INFO  AUTOMATION - after: Obtener todos los Products, status: PASSED
+17:33:28.195 INFO  AUTOMATION - before: Obtener un solo Product
+17:33:28.196 INFO  AUTOMATION - Autenticandose con el request login
+17:33:28.196 INFO  AUTOMATION - (POST) Login Request
+17:33:28.490 INFO  AUTOMATION - (GET) Get Single Product
+17:33:29.789 INFO  AUTOMATION - Verificando el status code
+17:33:29.789 INFO  AUTOMATION - Verificando el response time
+17:33:29.790 INFO  AUTOMATION - Haciendo el Schema validation
+17:33:29.823 INFO  AUTOMATION - after: Obtener un solo Product, status: PASSED
+17:33:29.827 INFO  AUTOMATION - before: Eliminar un Product
+17:33:29.828 INFO  AUTOMATION - Autenticandose con el request login
+17:33:29.828 INFO  AUTOMATION - (POST) Login Request
+17:33:30.123 INFO  AUTOMATION - (DELETE) Delete Products
+17:33:30.407 INFO  AUTOMATION - Verificando el status code
+17:33:30.408 INFO  AUTOMATION - Verificando el response time
+17:33:30.409 INFO  AUTOMATION - after: Eliminar un Product, status: PASSED
+17:33:30.421 INFO  AUTOMATION - before: Ordenar Products
+17:33:30.423 INFO  AUTOMATION - Autenticandose con el request login
+17:33:30.423 INFO  AUTOMATION - (POST) Login Request
+17:33:30.729 INFO  AUTOMATION - (GET) Sort poducts
+17:33:31.054 INFO  AUTOMATION - Verificando el status code
+17:33:31.054 INFO  AUTOMATION - Verificando el response time
+17:33:31.055 INFO  AUTOMATION - after: Ordenar Products, status: PASSED
+17:33:31.059 INFO  AUTOMATION - before: Buscar Products
+17:33:31.060 INFO  AUTOMATION - Autenticandose con el request login
+17:33:31.060 INFO  AUTOMATION - (POST) Login Request
+17:33:31.378 INFO  AUTOMATION - (GET) Search Products
+17:33:31.685 INFO  AUTOMATION - Verificando el status code
+17:33:31.686 INFO  AUTOMATION - Verificando el response time
+17:33:31.686 INFO  AUTOMATION - after: Buscar Products, status: PASSED
+17:33:31.689 INFO  AUTOMATION - before: Crear un Product
+17:33:31.689 INFO  AUTOMATION - Autenticandose con el request login
+17:33:31.690 INFO  AUTOMATION - (POST) Login Request
+17:33:32.029 INFO  AUTOMATION - (POST) Create Products
+17:33:32.307 INFO  AUTOMATION - Verificando el status code
+17:33:32.309 INFO  AUTOMATION - Verificando el response time
+17:33:32.311 INFO  AUTOMATION - after: Crear un Product, status: PASSED
+17:33:32.325 INFO  AUTOMATION - before: Actualizar un Product
+17:33:32.328 INFO  AUTOMATION - Autenticandose con el request login
+17:33:32.328 INFO  AUTOMATION - (POST) Login Request
+17:33:32.636 INFO  AUTOMATION - (PUT) Update Products
+17:33:32.924 INFO  AUTOMATION - Verificando el status code
+17:33:32.924 INFO  AUTOMATION - Verificando el response time
+17:33:32.924 INFO  AUTOMATION - after: Actualizar un Product, status: PASSED
+17:33:32.927 INFO  AUTOMATION - before: Actualizar parcialmente un Product
+17:33:32.928 INFO  AUTOMATION - Autenticandose con el request login
+17:33:32.928 INFO  AUTOMATION - (POST) Login Request
+17:33:33.275 INFO  AUTOMATION - (PACH) Partial Update Products
+17:33:33.559 INFO  AUTOMATION - Verificando el status code
+17:33:33.559 INFO  AUTOMATION - Verificando el response time
+17:33:33.559 INFO  AUTOMATION - after: Actualizar parcialmente un Product, status: PASSED
+17:33:33.563 INFO  AUTOMATION - before: Obtener un Product con id inexistente
+17:33:33.563 INFO  AUTOMATION - Autenticandose con el request login
+17:33:33.563 INFO  AUTOMATION - (POST) Login Request
+17:33:33.887 INFO  AUTOMATION - (GET) Get Single Product
+17:33:34.166 INFO  AUTOMATION - Verificando el status code
+17:33:34.166 INFO  AUTOMATION - after: Obtener un Product con id inexistente, status: PASSED
+17:33:34.170 INFO  AUTOMATION - before: Eliminar un Product con un id inexistente
+17:33:34.171 INFO  AUTOMATION - Autenticandose con el request login
+17:33:34.171 INFO  AUTOMATION - (POST) Login Request
+17:33:34.508 INFO  AUTOMATION - (DELETE) Delete Products
+17:33:34.813 INFO  AUTOMATION - Verificando el status code
+17:33:34.814 INFO  AUTOMATION - after: Eliminar un Product con un id inexistente, status: PASSED
+17:33:34.816 INFO  AUTOMATION - before: Actualizar un Product con id inexistente
+17:33:34.817 INFO  AUTOMATION - Autenticandose con el request login
+17:33:34.817 INFO  AUTOMATION - (POST) Login Request
+17:33:35.146 INFO  AUTOMATION - (PUT) Update Products
+17:33:35.431 INFO  AUTOMATION - Verificando el status code
+17:33:35.432 INFO  AUTOMATION - after: Actualizar un Product con id inexistente, status: PASSED
+17:33:35.445 INFO  AUTOMATION - before: Actualizar parcialmente un Product con id inexistente
+17:33:35.447 INFO  AUTOMATION - Autenticandose con el request login
+17:33:35.447 INFO  AUTOMATION - (POST) Login Request
+17:33:35.825 INFO  AUTOMATION - (PACH) Partial Update Products
+17:33:36.100 INFO  AUTOMATION - Verificando el status code
+17:33:36.100 INFO  AUTOMATION - after: Actualizar parcialmente un Product con id inexistente, status: PASSED
+17:33:36.105 INFO  AUTOMATION - before: Obtener todos los Users
+17:33:36.106 INFO  AUTOMATION - (GET) Get All User
+17:33:36.373 INFO  AUTOMATION - Verificando el status code
+17:33:36.373 INFO  AUTOMATION - after: Obtener todos los Users, status: PASSED
+17:33:36.377 INFO  AUTOMATION - before: Obtener un User por su id
+17:33:36.378 INFO  AUTOMATION - (GET) Get User
+17:33:36.642 INFO  AUTOMATION - Verificando el status code
+17:33:36.642 INFO  AUTOMATION - after: Obtener un User por su id, status: PASSED
+17:33:36.647 INFO  AUTOMATION - before: eliminar un User
+17:33:36.648 INFO  AUTOMATION - (DELETE) Delete User
+17:33:36.917 INFO  AUTOMATION - Verificando el status code
+17:33:36.918 INFO  AUTOMATION - after: eliminar un User, status: PASSED
+17:33:36.926 INFO  AUTOMATION - before: Ordenar un User
+17:33:36.928 INFO  AUTOMATION - (GET) Sort User
+17:33:37.207 INFO  AUTOMATION - Verificando el status code
+17:33:37.207 INFO  AUTOMATION - after: Ordenar un User, status: PASSED
+17:33:37.217 INFO  AUTOMATION - before: Filtrar Users
+17:33:37.222 INFO  AUTOMATION - (GET) Filter User
+17:33:37.491 INFO  AUTOMATION - Verificando el status code
+17:33:37.491 INFO  AUTOMATION - after: Filtrar Users, status: PASSED
+17:33:37.497 INFO  AUTOMATION - before: Crear un User
+17:33:37.567 INFO  AUTOMATION - (POST) Create User
+17:33:37.846 INFO  AUTOMATION - Verificando el status code
+17:33:37.846 INFO  AUTOMATION - after: Crear un User, status: PASSED
+17:33:37.850 INFO  AUTOMATION - before: Actualizar un User
+17:33:37.915 INFO  AUTOMATION - (PUT) Update User
+17:33:38.190 INFO  AUTOMATION - Verificando el status code
+17:33:38.190 INFO  AUTOMATION - after: Actualizar un User, status: PASSED
+17:33:38.194 INFO  AUTOMATION - before: Actualizar parcialmente un User
+17:33:38.213 INFO  AUTOMATION - (PATCH) Partial Update User
+17:33:38.491 INFO  AUTOMATION - Verificando el status code
+17:33:38.491 INFO  AUTOMATION - after: Actualizar parcialmente un User, status: PASSED
+17:33:38.496 INFO  AUTOMATION - before: Obtener un User con id inexistente
+17:33:38.497 INFO  AUTOMATION - Autenticandose con el request login
+17:33:38.497 INFO  AUTOMATION - (POST) Login Request
+17:33:38.779 INFO  AUTOMATION - (GET) Get User
+17:33:39.051 INFO  AUTOMATION - Verificando el status code
+17:33:39.051 INFO  AUTOMATION - after: Obtener un User con id inexistente, status: PASSED
+17:33:39.055 INFO  AUTOMATION - before: Eliminar un User con un id inexistente
+17:33:39.056 INFO  AUTOMATION - Autenticandose con el request login
+17:33:39.056 INFO  AUTOMATION - (POST) Login Request
+17:33:39.346 INFO  AUTOMATION - (DELETE) Delete User
+17:33:39.625 INFO  AUTOMATION - Verificando el status code
+17:33:39.625 INFO  AUTOMATION - after: Eliminar un User con un id inexistente, status: PASSED
+17:33:39.629 INFO  AUTOMATION - before: Actualizar un User con id inexistente
+17:33:39.630 INFO  AUTOMATION - Autenticandose con el request login
+17:33:39.630 INFO  AUTOMATION - (POST) Login Request
+17:33:39.988 INFO  AUTOMATION - (PUT) Update User
+17:33:40.288 INFO  AUTOMATION - Verificando el status code
+17:33:40.289 INFO  AUTOMATION - after: Actualizar un User con id inexistente, status: PASSED
+17:33:40.304 INFO  AUTOMATION - before: Actualizar parcialmente un User con id inexistente
+17:33:40.307 INFO  AUTOMATION - Autenticandose con el request login
+17:33:40.307 INFO  AUTOMATION - (POST) Login Request
+17:33:40.665 INFO  AUTOMATION - (PATCH) Partial Update User
+17:33:40.938 INFO  AUTOMATION - Verificando el status code
+17:33:40.938 INFO  AUTOMATION - after: Actualizar parcialmente un User con id inexistente, status: PASSED
+17:33:40.954 INFO  AUTOMATION - before: Obtener todos los Users
+17:33:40.955 INFO  AUTOMATION - Autenticandose con el request login
+17:33:40.955 INFO  AUTOMATION - (POST) Login Request
+17:33:41.264 INFO  AUTOMATION - (GET) Get All User
+17:33:41.561 INFO  AUTOMATION - Verificando el status code
+17:33:41.561 INFO  AUTOMATION - Verificando el response time
+17:33:41.561 INFO  AUTOMATION - after: Obtener todos los Users, status: PASSED
+17:33:41.564 INFO  AUTOMATION - before: Obtener un User por su id
+17:33:41.565 INFO  AUTOMATION - Autenticandose con el request login
+17:33:41.565 INFO  AUTOMATION - (POST) Login Request
+17:33:41.855 INFO  AUTOMATION - (GET) Get User
+17:33:42.146 INFO  AUTOMATION - Verificando el status code
+17:33:42.146 INFO  AUTOMATION - Verificando el response time
+17:33:42.146 INFO  AUTOMATION - Haciendo el Schema validation
+17:33:42.170 INFO  AUTOMATION - after: Obtener un User por su id, status: PASSED
+17:33:42.174 INFO  AUTOMATION - before: eliminar un User
+17:33:42.175 INFO  AUTOMATION - Autenticandose con el request login
+17:33:42.175 INFO  AUTOMATION - (POST) Login Request
+17:33:42.470 INFO  AUTOMATION - (DELETE) Delete User
+17:33:42.741 INFO  AUTOMATION - Verificando el status code
+17:33:42.741 INFO  AUTOMATION - Verificando el response time
+17:33:42.741 INFO  AUTOMATION - after: eliminar un User, status: PASSED
+17:33:42.745 INFO  AUTOMATION - before: Ordenar un User
+17:33:42.746 INFO  AUTOMATION - Autenticandose con el request login
+17:33:42.746 INFO  AUTOMATION - (POST) Login Request
+17:33:43.029 INFO  AUTOMATION - (GET) Sort User
+17:33:43.332 INFO  AUTOMATION - Verificando el status code
+17:33:43.332 INFO  AUTOMATION - Verificando el response time
+17:33:43.332 INFO  AUTOMATION - after: Ordenar un User, status: PASSED
+17:33:43.336 INFO  AUTOMATION - before: Filtrar Users
+17:33:43.337 INFO  AUTOMATION - Autenticandose con el request login
+17:33:43.338 INFO  AUTOMATION - (POST) Login Request
+17:33:43.622 INFO  AUTOMATION - (GET) Filter User
+17:33:43.912 INFO  AUTOMATION - Verificando el status code
+17:33:43.912 INFO  AUTOMATION - Verificando el response time
+17:33:43.912 INFO  AUTOMATION - after: Filtrar Users, status: PASSED
+17:33:43.916 INFO  AUTOMATION - before: Crear un User
+17:33:43.917 INFO  AUTOMATION - Autenticandose con el request login
+17:33:43.917 INFO  AUTOMATION - (POST) Login Request
+17:33:44.295 INFO  AUTOMATION - (POST) Create User
+17:33:44.585 INFO  AUTOMATION - Verificando el status code
+17:33:44.586 INFO  AUTOMATION - Verificando el response time
+17:33:44.586 INFO  AUTOMATION - after: Crear un User, status: PASSED
+17:33:44.589 INFO  AUTOMATION - before: Actualizar un User
+17:33:44.590 INFO  AUTOMATION - Autenticandose con el request login
+17:33:44.590 INFO  AUTOMATION - (POST) Login Request
+17:33:44.976 INFO  AUTOMATION - (PUT) Update User
+17:33:45.263 INFO  AUTOMATION - Verificando el status code
+17:33:45.263 INFO  AUTOMATION - Verificando el response time
+17:33:45.263 INFO  AUTOMATION - after: Actualizar un User, status: PASSED
+17:33:45.267 INFO  AUTOMATION - before: Actualizar parcialmente un User
+17:33:45.268 INFO  AUTOMATION - Autenticandose con el request login
+17:33:45.268 INFO  AUTOMATION - (POST) Login Request
+17:33:45.581 INFO  AUTOMATION - (PATCH) Partial Update User
+17:33:45.860 INFO  AUTOMATION - Verificando el status code
+17:33:45.860 INFO  AUTOMATION - Verificando el response time
+17:33:45.861 INFO  AUTOMATION - after: Actualizar parcialmente un User, status: PASSED
+17:33:45.861 INFO  AUTOMATION - afterAll
